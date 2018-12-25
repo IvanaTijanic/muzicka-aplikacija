@@ -1,7 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
 label {
   display: block;
 }
 
 #naslov {
   text-transform: capitalize;
+}
+
+header {
+  overflow: auto;
+  vertical-align: bottom;
+}
+
+footer {
+  overflow: auto;
+  background-color: transparent;
+  padding-bottom: 5px;
+}
+
+nav {
+  background-color: #130d07;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+nav a {
+  text-align: center;
+  font-size: 20px;
+  padding-left: 16px;
+  text-decoration: none;
+  color: wheat;
+}
+
+a:link {
+  background-color: transparent;
+  text-decoration: none;
+}
+form{
+margin-left: 50px;
+margin-top: 10px;
+padding: 5px 20px;
+background-color: rgb(242, 230, 217, 0.4);
+width: 25%;
+text-align: center;
+}
+
+button {
+  background-color: rgb(242, 230, 217);
+  border: none;
+  color: #130d07;
+  padding: 10px 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
 }

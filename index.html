@@ -6,22 +6,34 @@
   <title>Ucitavanje podataka</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<<body background="slike/note.jpg">
+  <main>
+    <header>
+      <a href="index.html">
+        <h1 style="text-align: center; font-size:70px;color:#130d07"><img src="slike/clef.png" alt="violinski ključ" style="width:60px; height:70px; ">Muzička
+          aplikacija
+        </h1>
+    </header>
+    <nav>
+      <a href="index.html" target="_blank">Pronađi tekst pesme</a>
+      <a href="sugestije.html" target="_blank">Pronađi pesmu</a>
+    </nav>
+   <form>
+  <h1>Pronađi tekst pesme</h1>
 
-  <h1>Pronadji tekst pesme</h1>
-
-  <label for="izvodjac">Naziv izvodjaca: </label>
+  <label for="izvodjac" ><b>Naziv izvođača:</b></label>
   <input id="izvodjac">
 
-  <label for="pesma">Naziv pesme:</label>
+  <label for="pesma"><b>Naziv pesme:</b></label>
   <input id="pesma">
 
-  <p><button id="potrazi">Potrazi</button></p>
+  <p><button id="potrazi"><b>Potraži</b></button></p>
 
   <div>
     <h2 id="naslov"></h2>
     <p id="rezultat"></p>
   </div>
+</form>
 
   <script src="main.js"></script>
 </body>
